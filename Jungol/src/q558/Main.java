@@ -7,6 +7,7 @@ public class Main {
 		int[] inp = new int[100];
 		Scanner sc = new Scanner(System.in);
 		int idx = 0;
+
 		for (;;) {
 			inp[idx] = sc.nextInt();
 			if (inp[idx++] == 0) {
