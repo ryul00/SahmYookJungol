@@ -29,6 +29,7 @@ public class Main2 {
 					 (w <= 72.57) ? 3 :
 					 (w <= 88.45) ? 4 : 5;
 		
+		// 각 케이스 종료 필수 -> break 안하면 출력하고 계속 다음으로 넘어감 
 		switch (weight) {
 		case 1: {
 			System.out.println("Flyweight");
