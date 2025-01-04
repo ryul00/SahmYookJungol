@@ -20,6 +20,10 @@ public class Main {
 		System.out.printf("%10d", 110);
 		System.out.printf("%10d", 97);
 		
+		// 핵심 포인트 
+		// 정렬 형식 지정자 
+		// %nd(정수 n칸 정렬) , %ns(문자열 n칸 정렬), %nf(실수 n칸 정렬), %nc(단일 문자 n칸 정렬)
+		
 	}
 		
 
