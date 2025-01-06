@@ -9,7 +9,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//		 case1 
+		
+//		 case1 출력으로 구하기
 //		  int num1 = sc.nextInt(); 
 //		  int num2 = sc.nextInt(); 
 //		  int num3 = sc.nextInt();
@@ -21,20 +22,31 @@ public class Main {
 //		  System.out.println("sum : " + sum); System.out.println("avg : " + avg);
 		 
 		
-//		case2
+		
+//		case2 배열로 구하기
 		
 		int[] ar = new int[3];
-		int sum = 0;
-		int avg = 0;
 		
-		
+		// 1단계
 		for(int i=0; i<ar.length; i++) {
 			ar[i] = sc.nextInt();
-			sum += ar[i];
-			avg = sum / ar.length;
 		}
+		sc.close();
+		
+//		2단계 배열 입력 확인
+//		for(int i=0; i<ar.length; i++) {
+//			System.out.print(ar[i] + " ");
+//		}
+		
+//		3단계 합계 계산
+		int sum = 0;
+		for(int i=0; i<ar.length; i++) {
+			sum += ar[i];
+		}
+		
+//		4단계 결과 출력
 		System.out.println("sum : " + sum); 
-		System.out.println("avg : " + avg);
+		System.out.println("avg : " + sum/ar.length);
 
 	}
 
