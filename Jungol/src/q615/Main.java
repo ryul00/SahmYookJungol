@@ -1,6 +1,6 @@
 package q615;
 
-import java.awt.print.Printable;
+
 import java.util.Scanner;
 
 import javax.print.attribute.standard.MediaSize.Engineering;
