@@ -20,7 +20,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int m = sc.nextInt();		
-
+		sc.close();
 			for(int j=1; j<=n*m; j++) {
 				System.out.print(j + " ");
 				if(j % m == 0) {
