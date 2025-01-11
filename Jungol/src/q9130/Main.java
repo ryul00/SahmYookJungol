@@ -27,6 +27,7 @@ class Person{
 		name = sc.next();
 		System.out.print("당신의 나이는 몇 살입니까? ");
 		age = sc.nextInt();
+		sc.close();
 	}
 	public void print() {
 		System.out.println("당신의 이름은 " + getName() + "이고 나이는 " + getAge() + "세이군요.");
