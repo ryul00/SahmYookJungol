@@ -42,6 +42,7 @@ public class Main {
 			int eng = sc.nextInt();
 			s[i] = new Student(name, kor, eng);
 			
+			
 		}
 		
 		sc.close();
