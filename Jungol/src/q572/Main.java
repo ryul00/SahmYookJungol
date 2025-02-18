@@ -6,6 +6,7 @@ public class Main {
 	static double r;
 	
 	public static void Circle(double r) {
+		
 		double result = r * r * 3.14;
 		System.out.printf("%.2f" ,result);
 	}

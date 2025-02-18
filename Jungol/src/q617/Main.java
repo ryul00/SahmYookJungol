@@ -13,19 +13,11 @@ public class Main {
 		for(int i=0;i<5;i++) {
 			narr[i] = sc.next();
 			harr[i] = sc.nextInt();
-//			sc.nextLine();
-//			System.out.println(narr[i] + " " + harr[i]);
-	
-			
 		}
 		sc.close();
 		
 		Person person = new Person();
 		person.min(harr, narr);
-		
-		
-		
-
 	}
 
 }
