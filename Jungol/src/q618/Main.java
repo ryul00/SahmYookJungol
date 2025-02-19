@@ -63,12 +63,7 @@ class Person{
             return Double.compare(p2.weight, p1.weight);  // 내림차순
         }
     };
-    
-//    @Override
-//    public String toString() {
-//        return String.format("%s %.0f %.1f", name, height, weight);
-//    }
-//	
+
 	
 }
 
