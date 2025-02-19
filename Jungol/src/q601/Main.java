@@ -10,13 +10,13 @@ public class Main {
 		sc.close();
 		
 		int r = str.length();
-//		System.out.println(r);
 		
 		for(int i=0; i<r; i++) {
-//			System.out.println(str.charAt(i));
-			String rotated = str.charAt(r-1) + str.substring(0,r-1);
-			System.out.println(rotated);
-			str = rotated; // 재할당 중요!! 재할당 후 값이 바뀐 str이 다시 반복문 집입 !
+			String rotateStr = str.charAt(r-1) + str.substring(0,r-1);
+			System.out.println(rotateStr);
+			str = rotateStr; // 출력 후 재할당 필수
 		}
+
 	}
+
 }
