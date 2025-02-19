@@ -19,6 +19,7 @@ public class Main {
 			arr[inp-'A']++;
 			
 		}
+		sc.close();
 		
 		for(int i=0; i<arr.length; i++) {
 			
